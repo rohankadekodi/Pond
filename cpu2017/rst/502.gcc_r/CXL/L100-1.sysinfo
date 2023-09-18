@@ -1,0 +1,93 @@
+Linux scalemem-haswell-node-2 5.1.0light-unmapping-winefs-vm+ #1 SMP Thu Aug 31 19:06:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+--------------------------
+available: 2 nodes (0-1)
+node 0 cpus: 0 2 4 6 8 10 12 14 16 18 20 22
+node 0 size: 64193 MB
+node 0 free: 63612 MB
+node 1 cpus:
+node 1 size: 64506 MB
+node 1 free: 64094 MB
+node distances:
+node   0   1 
+  0:  10  21 
+  1:  21  10 
+--------------------------
+Architecture:         x86_64
+CPU op-mode(s):       32-bit, 64-bit
+Byte Order:           Little Endian
+CPU(s):               48
+On-line CPU(s) list:  0,2,4,6,8,10,12,14,16,18,20,22
+Off-line CPU(s) list: 1,3,5,7,9,11,13,15,17,19,21,23-47
+Thread(s) per core:   1
+Core(s) per socket:   12
+Socket(s):            1
+NUMA node(s):         2
+Vendor ID:            GenuineIntel
+CPU family:           6
+Model:                63
+Model name:           Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz
+Stepping:             2
+CPU MHz:              2299.942
+CPU max MHz:          3100.0000
+CPU min MHz:          1200.0000
+BogoMIPS:             4599.88
+Virtualization:       VT-x
+L1d cache:            32K
+L1i cache:            32K
+L2 cache:             256K
+L3 cache:             30720K
+NUMA node0 CPU(s):    0,2,4,6,8,10,12,14,16,18,20,22
+NUMA node1 CPU(s):    
+Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts flush_l1d
+--------------------------
+MemTotal:       131788716 kB
+MemFree:        130772404 kB
+MemAvailable:   130209040 kB
+Buffers:            5104 kB
+Cached:            49560 kB
+SwapCached:            0 kB
+Active:            95480 kB
+Inactive:          22088 kB
+Active(anon):      62904 kB
+Inactive(anon):     2256 kB
+Active(file):      32576 kB
+Inactive(file):    19832 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               500 kB
+Writeback:             0 kB
+AnonPages:         62776 kB
+Mapped:            43020 kB
+Shmem:              2264 kB
+KReclaimable:      57152 kB
+Slab:             217248 kB
+SReclaimable:      57152 kB
+SUnreclaim:       160096 kB
+KernelStack:        9076 kB
+PageTables:         5720 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    65894356 kB
+Committed_AS:     321788 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+Percpu:            27264 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      322256 kB
+DirectMap2M:     5742592 kB
+DirectMap1G:    130023424 kB

@@ -5,8 +5,8 @@
 # Huaicheng Li <lhcwhu@gmail.com>
 #
 
-EMON="/opt/intel/oneapi/vtune/2021.1.2/bin64/emon"
-RUNDIR="/users/hcli/proj/run"
+EMON="/opt/intel/oneapi/vtune/2023.2.0/bin64/emon"
+RUNDIR="/home/cc/Pond"
 
 # Output folder
 MEMEATER="$RUNDIR/memeater"

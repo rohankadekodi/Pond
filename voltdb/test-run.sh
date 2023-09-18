@@ -2,14 +2,14 @@
 
 source voltdb-globals.sh
 
-VOLTDB_RUN_DIR="/users/hcli/proj/run/voltdb"
+VOLTDB_RUN_DIR="/home/cc/Pond/voltdb"
 
 cd ${YCSB_DIR}
 
 measure_bw() {
     for accessmode in "zipfian"; do
         for nthreads in 1024; do
-            bin/ycsb.sh run voltdb -P workloads/workloada -P \
+            numactl --cpunodebind=0 --membind=0 bin/ycsb.sh run voltdb -P workloads/workloada -P \
                 ${VOLTDB_RUN_DIR}/voltdb-run.properties -p voltdb.servers=${VDB_SERVER} \
                 -p requestdistribution=${accessmode} -p threadcount=${nthreads} \
                 -p fieldlength=10 \
@@ -31,5 +31,5 @@ measure_lat() {
     done
 }
 
-#measure_bw
-measure_lat
+measure_bw
+#measure_lat

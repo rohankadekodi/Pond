@@ -7,4 +7,4 @@ sudo mkdir -p /mnt/redis
 
 sed -i "s/^bind.*/bind $REDIS_SERVER ::1/" redis2.conf
 
-sudo redis-server redis2.conf
+numactl --cpunodebind=0 --membind=0 redis-server redis2.conf
